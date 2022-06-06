@@ -535,7 +535,7 @@ For example :<br/>
                 <field id="families_mapping" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Grouped product families and quantity association mapping</label>
                     <frontend_model>Akeneo\Connector\Block\Adminhtml\System\Config\Form\Field\Grouped</frontend_model>
-                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                    <backend_model>Akeneo\Connector\Model\Config\Backend\CustomGroups</backend_model>
                     <comment><![CDATA[Map each grouped family from Akeneo to its corresponding quantified association.<br />Please make sure to only map quantified association.]]></comment>
                 </field>
                 <depends>
